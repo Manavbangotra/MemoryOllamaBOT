@@ -37,7 +37,7 @@ memory = MemorySaver()
 
 # Create workflow
 workflow = StateGraph(State)
-
+print("Workflow created")
 # Add node
 workflow.add_node("chatbot", chatbot)
 
