@@ -8,8 +8,8 @@ from langgraph.graph.message import add_messages
 from langchain_core.messages import HumanMessage, AIMessage
 import os
 from langchain_groq import ChatGroq
-if "GROQ_API_KEY" not in os.environ:
-    os.environ["GROQ_API_KEY"] = "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"
+# if "GROQ_API_KEY" not in os.environ:
+#     os.environ["GROQ_API_KEY"] = "*****Enter your groq API here.*********"
 
 app = Flask(__name__)
 
